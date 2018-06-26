@@ -45,7 +45,6 @@ public class ZKConnect implements Watcher{
 
     }
 
-
     @Override
     public void process(WatchedEvent event) {
         log.warn("接受到watch通知：{}", event);
